@@ -1,3 +1,4 @@
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -6,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import * as Icon from 'react-bootstrap-icons';
 import './InternalNav.css'
 
-function InternalNav() {
+const InternalNav = ({size, setShow}) => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -38,8 +39,9 @@ function InternalNav() {
                 <Nav.Link href="#action2">
                   <Icon.Heart className="fs-3 text-warning m-2"  />
                 </Nav.Link>
-                <Nav.Link href="#action2">
+                <Nav.Link href="#action2" className="cart" onClick={()=>setShow(false)}>
                   <Icon.Cart className="fs-3 text-warning m-2"  />
+                  <span>{size}</span>
                 </Nav.Link>
               </div>
             
