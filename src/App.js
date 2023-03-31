@@ -62,7 +62,7 @@ function App() {
     <InternalNav size={cart.length} setShow={setShow}/>
     
       {
-			show ? <Amazon handleClick={handleClick} /> : <Cart cart={cart} setCart={setCart} handleChange={handleChange} />
+			show ? <Amazon handleClick={handleClick} /> : <Cart cart={cart} setCart={setCart} handleChange={handleChange} setShow={setShow} />
 		}
 		{
 			warning && <div className='warning'>Item is already added to your cart</div>

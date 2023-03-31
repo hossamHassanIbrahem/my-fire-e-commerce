@@ -8,7 +8,7 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 
 
-const Cart = ({cart, setCart, handleChange}) => {
+const Cart = ({cart, setCart, handleChange, setShow}) => {
     const [price, setPrice] = useState(0);
 
     const handlePrice = ()=>{
@@ -91,7 +91,8 @@ const Cart = ({cart, setCart, handleChange}) => {
       <InputGroup.Text className='bg-dark text-light py-2' style={{"borderTopRightRadius": "30px", "borderBottomRightRadius": "30px"}}>Apply Coupon</InputGroup.Text>
     </InputGroup>
     <div className='col-lg-6 col-md-12 d-flex align-items-end justify-content-end '>
-    <Button variant="warning rounded-pill py-2 px-4">Proceed to Chekout</Button>
+    <Button variant="dark rounded-pill py-2 px-3" onClick={()=>setShow(true)}>go to home</Button>
+    <Button variant="warning rounded-pill py-2 px-4 ms-2">Proceed to Chekout</Button>
     </div>
     </div>
 
