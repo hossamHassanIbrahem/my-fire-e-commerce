@@ -26,16 +26,16 @@ const Products = () => {
     return (
       <>
         <div className="col-md-3">
-          <Skeleton height={350} />
+          <Skeleton height={350} count={3} />
         </div>
         <div className="col-md-3">
-          <Skeleton height={350} />
+          <Skeleton height={350} count={3} />
         </div>
         <div className="col-md-3">
-          <Skeleton height={350} />
+          <Skeleton height={350} count={3} />
         </div>
         <div className="col-md-3">
-          <Skeleton height={350} />
+          <Skeleton height={350} count={3} />
         </div>
       </>
     );
