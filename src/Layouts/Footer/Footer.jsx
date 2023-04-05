@@ -5,9 +5,9 @@ import FooterLink from '../FooterLink/FooterLink';
 
 export default function ProjFooter() {
   return (
-    <div className='text-center' color='black' bgColor='light'>
+    <div className='text-center ' color='black' bgColor='light'>
       <Container fluid className='p-4'>
-        <section className='mb-4'>
+        <section className='mb-4 d-flex justify-content-center align-items-center'>
         <a outline  floating className='m-1' href='#!' role='button'>
           <Icon.Facebook className="fs-2 text-warning m-2"  />
 
@@ -39,7 +39,7 @@ export default function ProjFooter() {
           </a>
         </section>
 
-        <section className=''>
+        <section className='d-block'>
           <form action=''>
             <Row className='d-flex justify-content-center'>
               <Col size="auto">
@@ -61,7 +61,7 @@ export default function ProjFooter() {
           </form>
         </section>
 
-        <section className='mb-4'>
+        <section className='mb-4 d-block'>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
             voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam
@@ -69,7 +69,7 @@ export default function ProjFooter() {
           </p>
         </section>
 
-        <section className=''>
+        <section className='d-block'>
           <Row>
             <FooterLink title='mobiles' link1='#' link2='#' link3='#' link4='#'/>
 
