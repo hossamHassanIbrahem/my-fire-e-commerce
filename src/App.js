@@ -1,13 +1,13 @@
-<<<<<<< HEAD
+// <<<<<<< HEAD
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Products from "./Components/products/Products";
 import ProjFooter from "./Layouts/Footer/Footer";
 import Header from "./Layouts/Header/Header";
-<<<<<<< HEAD
+// <<<<<<< HEAD
 //// F ////
 import UserAccount from './pages/user-account/user-account';
-import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
 import MyAccount from './component/myAccount/myAccount';
 import MyOrders from './component/myOrders/myOrders';
 import MyWishList from './component/myWishList/myWishList';
@@ -15,22 +15,22 @@ import AddressBook from './component/addressBook/addressBook';
 import AccountInformation from './component/accountInformation/accountInformation';
 /////
 
-=======
+// =======
 import ForgotPassword from "./Pages/ForgotPassword/forgotPassword";
 import Login from "./Pages/Login/login";
 import Register from "./Pages/Register/register";
->>>>>>> ahmed-ali
-=======
+// >>>>>>> ahmed-ali
+// =======
 import React , {useState, useEffect} from 'react';
 import "./App.css";
-import ProjFooter from "./Layouts/Footer/Footer";
+// import ProjFooter from "./Layouts/Footer/Footer";
 // import Slider from './Components/Slider/Slider'
 import InternalNav from './Layouts/InternalNav/InternalNav'
 import ProjectNav from './Layouts/Nav/ProjectNav'
 import Amazon from './Components/Amazon/Amazon';
 import Cart from './Components/cart/Cart';
 import './Components/Amazon/amazon.css';
->>>>>>> marina_samy
+// >>>>>>> marina_samy
 // require('dotenv').config()
 function App() {
   const [show, setShow] = useState(true);
